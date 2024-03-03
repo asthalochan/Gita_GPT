@@ -115,4 +115,4 @@ for message in st.session_state.chat_history:
 
 
 # footer
-st.write("st.markdown(Made with ❤️ by Asthalochan © 2024")
+st.write("Made with ❤️ by Asthalochan © 2024")
