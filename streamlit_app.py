@@ -79,7 +79,7 @@ def get_response(user_query):
 
 # app config
 st.set_page_config(page_title="Chat with Bhagavad Gita", page_icon="🕉️")
-st.title("Chat with Bhagavad Gita")
+st.title("Chat with Bhagavad Gita 🕉️")
 
 
 
