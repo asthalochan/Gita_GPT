@@ -15,10 +15,10 @@ from langchain.chains.combine_documents import create_stuff_documents_chain
 
 
 load_dotenv()
-huggingfacehub_api_token=os.getenv("huggingfacehub_api_token")
-PINECONE_API_KEY = os.environ["PINECONE_API_KEY"]
-PINECONE_ENVIRONMENT = os.environ["PINECONE_ENVIRONMENT"]
-PINECONE_INDEX_NAME = os.environ["PINECONE_INDEX_NAME"]
+huggingfacehub_api_token=os.getenv("PINECONE_API_KEY") == st.secrets["huggingfacehub_api_token"]
+PINECONE_API_KEY = os.environ["PINECONE_API_KEY"] == st.secrets["PINECONE_API_KEY"]
+PINECONE_ENVIRONMENT = os.environ["PINECONE_ENVIRONMENT"] == st.secrets["PINECONE_ENVIRONMENT"]
+PINECONE_INDEX_NAME = os.environ["PINECONE_INDEX_NAME"] == st.secrets["PINECONE_INDEX_NAME"]
 
 pinecone = PineconeClient(api_key=PINECONE_API_KEY,
                          environment=PINECONE_ENVIRONMENT)
