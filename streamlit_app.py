@@ -110,3 +110,14 @@ for message in st.session_state.chat_history:
     elif isinstance(message, HumanMessage):
         with st.chat_message("Human"):
             st.write(message.content)
+
+
+# footer
+st.markdown(
+    """
+    <footer style="background-color:#f8f9fa; padding:10px; text-align:center;">
+        Made with ❤️ by Asthalochan &copy; 2024
+    </footer>
+    """,
+    unsafe_allow_html=True
+)
