@@ -78,7 +78,7 @@ def get_response(user_query):
 
 
 # app config
-st.set_page_config(page_title="Chat with Bhagavad Gita", initial_sidebar_state="auto", page_icon="🕉️")
+st.set_page_config(page_title="Chat with Bhagavad Gita", initial_sidebar_state="collapsed", page_icon="🕉️")
 st.title("Chat with Bhagavad Gita 🕉️")
 
 
