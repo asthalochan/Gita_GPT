@@ -1,0 +1,4 @@
+PineconeClient
+streamlit
+langchain
+langchain_community
