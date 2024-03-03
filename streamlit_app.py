@@ -83,8 +83,8 @@ st.title("Chat with Bhagavad Gita 🕉️")
 
 
 with st.sidebar:
-    with st.echo():
-        st.write("Made with ❤️ by Asthalochan © 2024")
+  st.link_button("Contact Me ✉️", "mailto: mohantaastha@gmail.com")
+  st.write("Made with ❤️ by Asthalochan © 2024")
 
 
 
