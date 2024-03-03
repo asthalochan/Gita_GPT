@@ -82,14 +82,7 @@ st.set_page_config(page_title="Chat with Bhagavad Gita", page_icon="🕉️")
 st.title("Chat with Bhagavad Gita 🕉️")
 
 
-st.markdown(
-    """
-    <footer style="background-color:#f8f9fa; padding:10px; text-align:center;">
-        Made with ❤️ by Asthalochan &copy; 2024
-    </footer>
-    """,
-    unsafe_allow_html=True
-)
+
 
 
 
@@ -122,3 +115,4 @@ for message in st.session_state.chat_history:
 
 
 # footer
+st.write("st.markdown(Made with ❤️ by Asthalochan © 2024")
