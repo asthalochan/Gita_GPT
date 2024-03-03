@@ -78,11 +78,13 @@ def get_response(user_query):
 
 
 # app config
-st.set_page_config(page_title="Chat with Bhagavad Gita", page_icon="🕉️")
+st.set_page_config(page_title="Chat with Bhagavad Gita", initial_sidebar_state=auto, page_icon="🕉️")
 st.title("Chat with Bhagavad Gita 🕉️")
 
 
-
+with st.sidebar:
+    with st.echo():
+        st.write("Made with ❤️ by Asthalochan © 2024")
 
 
 
