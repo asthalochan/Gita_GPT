@@ -1,4 +1,4 @@
-PineconeClient
+pinecone-client
 streamlit
 langchain
 langchain_community
