@@ -84,6 +84,7 @@ st.title("Chat with Bhagavad Gita 🕉️")
 
 with st.sidebar:
   st.image('arjuna12.jpg')
+  st.write("Experience the transformative power of the Bhagavad Gita Chat Bot, offering profound insights and practical advice to enhance your daily life and inner peace.")
   st.link_button("Contact Me ✉️", "mailto: mohantaastha@gmail.com")
   st.write("Made with ❤️ by Asthalochan © 2024")
 
