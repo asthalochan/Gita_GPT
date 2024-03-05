@@ -88,6 +88,9 @@ with st.sidebar:
   st.write("")
   st.write("")
   st.write("")
+  st.write("")
+  st.write("")
+  st.write("")
   st.link_button("Contact Me ✉️", "mailto: mohantaastha@gmail.com")
   st.write("Made with ❤️ by Asthalochan © 2024")
 
