@@ -83,6 +83,7 @@ st.title("Chat with Bhagavad Gita 🕉️")
 
 
 with st.sidebar:
+  st.image('arjuna12.jpg')
   st.link_button("Contact Me ✉️", "mailto: mohantaastha@gmail.com")
   st.write("Made with ❤️ by Asthalochan © 2024")
 
