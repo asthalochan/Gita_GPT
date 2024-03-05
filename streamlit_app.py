@@ -23,7 +23,7 @@ PINECONE_INDEX_NAME = st.secrets["PINECONE_INDEX_NAME"]
 
 pinecone = PineconeClient(api_key=PINECONE_API_KEY,
                          environment=PINECONE_ENVIRONMENT)
-index_name="gita-gpt"
+index_name=PINECONE_INDEX_NAME
 
 #download embedding model
 def download_hugging_face_embeddings():
